@@ -1,36 +1,38 @@
-/* REGOLE GENERALI DELLA PAGINA */
-* {
-  box-sizing: border-box;
-}
-#head-down, #second {
-  background-color: #1abc9c;
-}
-#head-up, #foot-up {
-  background-color: #1a252f;
-}
+
 /* Debug */
 [class*="col-"] {
   min-height: 200px;
 }
+
+/* REGOLE GENERALI DELLA PAGINA */
+* {
+  box-sizing: border-box;
+}
+#jumbotron, #third {
+  background-color: #1abc9c;
+}
+header, #foot-up {
+  background-color: #1a252f;
+}
+#second, #fourth {
+  background-color: white;
+}
 /* INTESTAZIONE DI PAGINA */
 header {
-  width: 100%;
-  height: 100vh;
-}
-#head-up {
   height: 10vh;
-  position: fixed;
-}
-#head-down {
-  margin-top: 12vh;
-  height: 90vh;
+  /* position: fixed; */
 }
 /* CORPO CENTRALE PAGINA */
-#first, #third {
-  background-color: white;
+#jumbotron {
   height: 100vh;
 }
 #second {
+  height: 100vh;
+}
+#third {
+  height: 100vh;
+}
+#fourth {
   height: 100vh;
 }
 /* PIE' DI PAGINA */
@@ -38,5 +40,6 @@ header {
   height: 50vh;
 }
 #foot-down {
+  background-color: #343a40;
   height: 10vh;
 }
