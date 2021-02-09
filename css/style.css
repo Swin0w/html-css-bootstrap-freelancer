@@ -2,31 +2,41 @@
 * {
   box-sizing: border-box;
 }
+#head-down, #second {
+  background-color: #1abc9c;
+}
+#head-up, #foot-up {
+  background-color: #1a252f;
+}
 /* Debug */
 [class*="col-"] {
   min-height: 200px;
 }
+/* INTESTAZIONE DI PAGINA */
 header {
   width: 100%;
   height: 100vh;
 }
-#head-down, #second {
-  background-color: #1abc9c;
-}
 #head-up {
-  background-color: #1a252f;
-  width: 100%;
-  height: 12vh;
+  height: 10vh;
   position: fixed;
 }
 #head-down {
-  width: 100%;
-  height: 88vh;
+  margin-top: 12vh;
+  height: 90vh;
 }
+/* CORPO CENTRALE PAGINA */
 #first, #third {
   background-color: white;
   height: 100vh;
 }
 #second {
   height: 100vh;
+}
+/* PIE' DI PAGINA */
+#foot-up {
+  height: 50vh;
+}
+#foot-down {
+  height: 10vh;
 }
