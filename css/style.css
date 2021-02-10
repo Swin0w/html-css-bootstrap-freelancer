@@ -14,30 +14,24 @@ header, #foot-up {
 #second, #fourth {
   background-color: white;
 }
-h1 {
-  text-align: center;
+h1, p {
   font-weight: bold;
+}
+p {
+  font-size: 16pt;
 }
 #jumbotron, #third, footer, header {
   color: white;
 }
 .glyphicon-star {
-  font-size: 15pt;
+  font-size: 30pt;
+  text-align: center;
+  padding: 10px 0;
 }
 /* INTESTAZIONE DI PAGINA */
-header {
-  height: 10vh;
-  /* position: fixed; */
-}
-#logo-brand h1 {
-  line-height: 10vh;
-  vertical-align: middle;
-}
 nav {
-  float: right;
   text-decoration: none;
-  line-height: 10vh;
-  vertical-align: middle;
+  text-align: right;
 }
 li {
   display: inline;
@@ -45,21 +39,33 @@ li {
   font-size: 14pt;
 }
 /* CORPO CENTRALE PAGINA */
-/* #jumbotron {
-  margin-top: 10vh;
-} */
+header h1  {
+  font-size: 20pt;
+  letter-spacing: 2px;
+}
+.center {
+  text-align: center;
+}
+#jumbotron {
+  padding: 80px 0;
+}
 #jumbotron img {
-  width: 400px;
-  height: 400px;
+  width: 300px;
+  height: 300px;
 }
 #second {
-  height: 100vh;
+}
+.container-img {
+  margin: 50px 0;
+}
+.container-img img{
+  width: 330px;
+  height: 240px;
+  border-radius: 10px;
 }
 #third {
-  height: 100vh;
 }
 #fourth {
-  height: 100vh;
 }
 /* PIE' DI PAGINA */
 #foot-up {
