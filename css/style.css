@@ -1,9 +1,4 @@
 
-/* Debug */
-[class*="col-"] {
-  min-height: 200px;
-}
-
 /* REGOLE GENERALI DELLA PAGINA */
 * {
   margin: 0;
