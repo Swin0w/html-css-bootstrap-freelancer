@@ -21,9 +21,9 @@ header, #foot-up {
 }
 h1 {
   text-align: center;
-  margin-top: 40px;
+  font-weight: bold;
 }
-#jumbotron, #third, footer {
+#jumbotron, #third, footer, header {
   color: white;
 }
 .glyphicon-star {
@@ -33,6 +33,21 @@ h1 {
 header {
   height: 10vh;
   /* position: fixed; */
+}
+#logo-brand h1 {
+  line-height: 10vh;
+  vertical-align: middle;
+}
+nav {
+  float: right;
+  text-decoration: none;
+  line-height: 10vh;
+  vertical-align: middle;
+}
+li {
+  display: inline;
+  padding-left: 30px;
+  font-size: 14pt;
 }
 /* CORPO CENTRALE PAGINA */
 /* #jumbotron {
