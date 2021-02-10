@@ -6,6 +6,8 @@
 
 /* REGOLE GENERALI DELLA PAGINA */
 * {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 #jumbotron, #third {
@@ -17,14 +19,28 @@ header, #foot-up {
 #second, #fourth {
   background-color: white;
 }
+h1 {
+  text-align: center;
+  margin-top: 40px;
+}
+#jumbotron, #third, footer {
+  color: white;
+}
+.glyphicon-star {
+  font-size: 15pt;
+}
 /* INTESTAZIONE DI PAGINA */
 header {
   height: 10vh;
   /* position: fixed; */
 }
 /* CORPO CENTRALE PAGINA */
-#jumbotron {
-  height: 100vh;
+/* #jumbotron {
+  margin-top: 10vh;
+} */
+#jumbotron img {
+  width: 400px;
+  height: 400px;
 }
 #second {
   height: 100vh;
