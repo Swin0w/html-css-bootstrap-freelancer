@@ -87,9 +87,18 @@ li a:hover {
   font-weight: normal;
 }
 #center2text {
+  height: 200px;
   padding: 0 120px;
-  margin-bottom: 100px;
+  margin-bottom: 20px;
   text-align: left;
+}
+#third button {
+  margin-bottom: 30px;
+  background-color: transparent;
+  width: 140px;
+  height: 50px;
+  border: 2px solid white;
+  border-radius: 5px;
 }
 #fourth {
   padding: 40px 0;
