@@ -94,8 +94,18 @@ li a:hover {
 #fourth {
   padding: 40px 0;
 }
-input {
+input, textarea {
   margin: 30px 0;
+  padding: 5px 0;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+input::placeholder, textarea::placeholder {
+  font-size: 16pt;
+}
+textarea {
+  border-bottom: 2px solid grey;
 }
 form #submit-sx {
   background-color: #27cc02;
