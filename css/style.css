@@ -88,7 +88,7 @@ li a:hover {
 }
 #center2text {
   padding: 0 120px;
-  margin-bottom: 40px;
+  margin-bottom: 100px;
   text-align: left;
 }
 #fourth {
@@ -109,9 +109,7 @@ form #submit-sx {
   font-weight: bold;
 }
 /* PIE' DI PAGINA */
-#foot-up {
-  height: 20vh;
-}
+
 #foot-up h2 {
   font-weight: bold;
   font-size: 16pt;
@@ -127,12 +125,37 @@ form #submit-sx {
 }
 #foot-up ul {
   text-align: center;
+  padding-top: 30px;
+}
+#foot-up li {
+  border: 2px solid white;
+  padding: 10px;
+  border-radius: 50%;
+}
+#foot-up li:nth-of-type(2){
+  margin: 0 2px;
+}
+#foot-up li:first-child {
+  padding: 11px 15px;
+  margin-right: 2px;
+}
+#foot-up li:nth-of-type(3) {
+  padding: 11px 12px;
+  margin: 0 2px;
+}
+#foot-up li:last-child {
+  padding: 11px 11px;
+}
+#foot-up li a {
+  color: white;
 }
 #foot-down {
   background-color: #343a40;
-  height: 10vh;
+  height: 7vh;
 }
 #foot-down p {
   text-align: center;
+  line-height: 7vh;
+  vertical-align: middle;
   font-weight: normal;
 }
